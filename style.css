@@ -1,0 +1,146 @@
+
+body{
+    margin: 0px;
+padding: 0px;
+height: 100vh;
+width: 100vw;
+    background-color:#AFEEEE;
+    font-family: 'Poppins', sans-serif;
+}
+.navlogo{
+    width: 150px;
+    margin: 10px 10px;
+    padding: 10px;
+}
+.links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    list-style: none;
+}
+nav{
+display: flex;
+justify-content: space-around;
+width: 100%;
+align-items: center;
+}
+/* main body css */
+
+.slider .text{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+    flex-direction: column;
+}
+.text button{
+    padding: 10px 10px;
+    margin: 0px 10px;
+    background-color: skyblue;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: white;
+border-radius: 10px;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 40px;
+}
+.slider .img_pc{
+    width: 40%;
+    height:300px;
+}
+.img_pc img{
+    width: 70%;
+    height: 300px;
+}
+ /* main body 2 */
+.aboutus{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} 
+.about img{
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+.about{
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(2,400px);
+}
+
+@media screen and (max-width:640px){
+.links ul {
+
+    font-size: 10px;
+    gap: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    justify-content: center;
+}
+.navlogo{
+    width: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+.navlogo img{
+width: 100px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.about img{
+    width: 200px;
+    height: 200px;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+}
+.contactus center{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 30px;
+    font-size: 30px;
+}
+@media screen and (max-width:990px){
+    .links ul{
+        font-size: 20px;
+    }
+    .about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .about img{
+        width: 300px;
+        height: 300px;
+    }
+}
